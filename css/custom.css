@@ -10,6 +10,14 @@ body {
   text-decoration: none;
 }
 
-body {
-  background-color: blueviolet;
+.hero {
+  background-image: url("/images/fb-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .hero {
+    background-size: 0%;
+  }
 }

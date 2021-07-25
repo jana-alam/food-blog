@@ -11,10 +11,7 @@ body {
 }
 
 .hero {
-  /* background-image: url("/images/fb-bg.png"); */
-  background-image: url("/images/waiting-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: linear-gradient(#e0f3fa, #cce7f0);
 }
 .recipe-badge {
   top: 30px;
@@ -28,10 +25,4 @@ body {
 .card img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-}
-
-@media only screen and (max-width: 992px) {
-  .hero {
-    background-size: 0%;
-  }
 }

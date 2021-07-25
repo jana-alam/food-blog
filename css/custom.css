@@ -26,3 +26,26 @@ body {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
+.subscription-left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.subscription-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+  .subscription-left {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 15px;
+  }
+  .subscription-right {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}

@@ -61,7 +61,9 @@ body {
 .fa-instagram:hover {
   color: #c13584;
 }
-
+.top-icon:hover > span {
+  color: grey;
+}
 @media only screen and (max-width: 991px) {
   .subscription-left {
     border-top-right-radius: 15px;
